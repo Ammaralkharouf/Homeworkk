@@ -1,0 +1,174 @@
+html * {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    
+    max-height: 100vh;
+    
+}
+.logo {
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom:  20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(182, 0, 97);
+    margin-top: 40px;
+    margin-left: 20px;
+}
+a.button {
+    display: inline-block;
+    background: rgba(71, 46, 129, 0.507);
+    height: 60px;
+    font-size: 16px;
+    color: #184c61;
+    padding: 20px 40px;
+    position: relative;
+    border-radius: 100%;
+    
+    
+    
+}
+a.button::after {
+    content:'';
+    display: block;
+    height: 1px;
+    width: 80px;
+    background: #1d0053;
+    position: absolute;
+    top: 49%;
+    right: -30px;
+    
+}
+p {
+    color: rgb(19, 100, 114);
+    font-size: 18px;
+    line-height: 1.7;
+    margin-top: 40px;
+    
+}
+
+
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h1 {
+        color: rgb(3, 78, 62);
+        
+    
+    }
+h2 {
+    color: rgb(3, 78, 62);
+}
+
+header nav {
+    width: 70%;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+header nav ul li {
+    padding: 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #23748d;
+    margin-top: 7px;
+    
+}
+
+section.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, white 10%, transparent),
+                url('pngtree-Star-Space-Night-Stars-photo-464746.jpg');
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    background-repeat: no-repeat;
+    
+}
+section.hero div.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+section.hero div.content {
+    width: 50%;
+    height:40%;
+}
+
+section.hero button {
+    background: #02727293;
+    color: rgb(0, 29, 25);
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: none;
+     /* x y blur color */
+     box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+     margin-top: 20px;
+     position: relative;
+}
+section.hero button::after {
+    content:'';
+    display: block;
+    height: 1px;
+    width: 80px;
+    background: #1d0053;
+    position: absolute;
+    top: 50%;
+    right: -60px;
+}
+section.intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 10%;
+    
+  
+}
+
+section.intro nav ul {
+    display: flex;
+    justify-content: space-between; /* space the elements evenly */
+    list-style: none; /* remove the dots from the list */
+    padding: 0; /* remove the padding from the list */
+    margin-top: -75px; /* PULL IT UP 🔥🐸 */
+}
+
+section.intro nav ul li {
+    background: rgba(52, 227, 240, 0);
+    padding: 70px;
+    /* box-shadow: x y blur color */
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.2);
+}
+
+section.intro nav ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+section.intro div {
+    max-width: 580px;
+    margin: 200px auto;
+    text-align: center;
+}
